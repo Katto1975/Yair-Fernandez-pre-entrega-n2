@@ -174,6 +174,191 @@ footer a:hover {
     color: white;
 }
 
+.box-galeria {
+    display: flex;
+    padding: 5px;
+}
+
+.columna-img .galeria {
+    margin-top: 5px;
+}
+
+.bloque-derecha {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.titulo-galeria{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-galeria h1{
+    font-size: 80px;
+    color: white;
+    text-decoration: underline;
+}
+
+.columna-img {
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.box-discografia {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.box-discografia h1{
+    font-size: 80px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.box-discografia p { 
+    font-size: 23px;
+}
+
+.spotify-box{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.img-discografia {
+    display: flex;
+    justify-content: center;
+}
+
+.img-discografia img {
+    width: 50%;
+
+}
+
+.artista {
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.artista h2 {
+    font-size: 20px;
+    padding-bottom: 32px;
+}
+
+.artista a {
+    display: flex;
+    color: white;
+    background-color: #008b8b9e;
+    flex-direction: row;
+    width: 80px;
+    height: 46px;
+    border-radius: 28px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    padding: 25px 70px;
+    font-size: 20px;
+}
+
+.titulo-contacto {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-contacto h1 {
+    padding-left: 37px;
+    font-size: 80px;
+    font-weight: 600;
+    text-decoration: underline;
+} 
+.titulo-contacto p {
+    width: 50%;
+    padding: 20;
+    font-size: 23px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.box-comentario{
+    height: 50%;
+}
+
+.datos {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: flex-end;
+}
+
+.grupo-form1 {
+    display: flex;
+    margin-bottom: 0.5rem;
+    flex-direction: column;
+    align-items: stretch;
+    height: 60px;
+}
+
+form  {
+    color: white;
+    font-size: 20px;
+}
+
+.box-datos {
+    display: block;
+    width: 100%;
+    height: 100px;
+    padding: 0.375rem 0.75rem;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+textarea {
+    margin-bottom: 15px;
+}
+
+.boton-comentario {
+    display: flex;
+    color: white;
+    background-color: #008b8b9e;
+    flex-direction: row;
+    width: 40px;
+    height: 29px;
+    border-radius: 0.25rem;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    padding: 14px 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+iframe {
+    border-radius: 12px
+}
+
 @media (max-width:375px) {
     .header {
         padding-top: 20px;
