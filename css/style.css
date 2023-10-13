@@ -4,11 +4,9 @@
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
-
-body { 
-    background-image: url(/img/fondo.jpg);
+body {
+   background-color: black; 
 }
-
 a {
      text-decoration: none;
 }
@@ -25,7 +23,9 @@ a {
     gap: 10px;
 }
 .header {
+    background-image: url(/img/fondo.jpg);
     padding-top: 20px;
+    padding-bottom: 20px;
     grid-area: header;
     color: white;
     display: flex;
@@ -34,6 +34,7 @@ a {
 }
 
 .titulo-header{
+    text-align: center;
     font-weight: 700;
     font-size: 80px;
     color: #fff; 
@@ -72,6 +73,7 @@ ul li a:hover {
 }
 
 .main {
+    background-image: url(/img/fondo.jpg);
     display: flex;
     grid-area: main;
     color: white;   
@@ -87,7 +89,7 @@ ul li a:hover {
 
 .container-main {
     display: flex;
-    background-color: rgba(250, 235, 215, 0.657);
+    background-color: rgba(250, 235, 215, 0.872);
     font-weight: 400;
     font-size: 26px;
     color: black;
