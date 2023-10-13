@@ -312,7 +312,4 @@ footer a:hover {
     .grid-container {
         grid-template-rows: 75px 70px auto 70px;
     }
-    .row>* {
-        padding-left: 0px
-    }
 }
